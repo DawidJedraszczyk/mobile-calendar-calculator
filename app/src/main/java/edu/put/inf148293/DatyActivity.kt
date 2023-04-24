@@ -109,7 +109,7 @@ class DatyActivity : Activity() {
             for (year in result){
                 workingDays += year.second
             }
-            return workingDays
+            return workingDays-1
         }
 
 
